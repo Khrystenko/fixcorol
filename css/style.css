@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: SnickerSnackDemo;
+    src: url("../font/SnickerSnackDemo.otf");
+}
+
+body{
+    background: url("../img/imj.jpg") no-repeat;
+    background-size: 100% 100%;
+}
+img{
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
+#page{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #fff6f8;
+    padding: 3px;
+}
+
+h1{
+    margin: 1px 0 14px 0;
+
+}
+.content p{
+    margin-bottom: 20px;
+}
+.social{
+    margin: 0 0 30px 0;
+    border-bottom: 1px solid #37805e;
+    padding: 12px;
+}
+p {
+    color:black;
+    font-family: SnickerSnackDemo;
+}
+hr{
+    color:tomato;
+}
+a,a:visited{
+    color: #afffec;
+    text-decoration: underline;
+    font-size: 20px;
+
+}
+a:hover{
+    color: #ecf4ff;
+}
+#page{
+    width: 400px;
+    margin: 0 auto;
+    background-color: #b4bbba;
+    padding: 5px;
+}
+#page div:first-of-type{
+    font-style: italic;
+    font-weight: bold;
+}
+.menu {
+    list-style-type: none;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.menu li{
+    display:inline;
+
+
+}
+.icon-bar{
+    width: 400px;
+    margin: 0 auto;
+    padding: 1px;
+
+}
+@media (max-width: 576px){
+    #page{
+        width: 100%;
+    }
+    #page img{
+        width: 100%;
+    }
+    /*
+    pro telefon a poc
+     */
+}
+iframe {
+    width: 400px;
+    display: block;
+    margin: 0 auto;
+}
